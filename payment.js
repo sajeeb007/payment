@@ -1,6 +1,6 @@
 var id_token = '';
 $.ajax({
-    url: 'bkash.html/tokenized/checkout/token/grant',
+    url: 'sajeeb007.github.i0/payment/tokenized/checkout/token/grant',
     type: 'POST',
     contentType: 'application/json',
     beforeSend: function(tokenRequest) {
