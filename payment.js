@@ -1,6 +1,6 @@
 var id_token = '';
 $.ajax({
-    url: 'https://sajeeb007.github.io/payment/tokenized/checkout/token/grant',
+    url: '{base_url)/payment/tokenized/checkout/token/grant',
     type: 'POST',
     contentType: 'application/json',
     beforeSend: function(tokenRequest) {
